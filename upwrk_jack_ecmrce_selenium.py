@@ -22,7 +22,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 driver.maximize_window()
 
 # URL to scrape
-url = "https://trendboston.com/collections/women-shoes"
+url = "https://use_your_url.com"
 driver.get(url)
 print(f"Opened URL: {url}")
 time.sleep(random.uniform(2, 5))
